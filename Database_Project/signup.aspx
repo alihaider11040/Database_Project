@@ -1,13 +1,19 @@
-<head>  
-   <link rel="stylesheet" type="text/css" href="signup.css"/>  
-</head>  
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="signup.aspx.cs" Inherits="Database_Project.signup" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 
 
-<div id="login-box">
+<style>
+    .test{
+        
+    }
+</style>
+
+    <div id="login-box">
   <div class="left">
     <h1>Sign up</h1>
     
-    <asp:input type="text" name="username" placeholder="Username" runat="server"/>
+    <asp:textbox CssClass="test" type="text" name="username" placeholder="Username" runat="server" />
     <input type="text" name="email" placeholder="E-mail" />
     <input type="password" name="password" placeholder="Password" />
     <input type="password" name="password2" placeholder="Retype password" />
@@ -24,3 +30,5 @@
   </div>
   <div class="or">OR</div>
 </div>
+
+</asp:Content>
