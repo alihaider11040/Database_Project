@@ -47,7 +47,7 @@
             border-radius: 0.25rem;
         }
 
-        @media only screen and (max-width: 48rem) {
+        @media only screen and (max-width: 768px) {
             .styled-input {
                 width: 100%;
             }
@@ -123,7 +123,7 @@
                 box-shadow: 0 0.0625rem 0.0625rem 0 rgba(0,0,0,0.10), 0 0.0625rem 0.0625rem 0 rgba(0,0,0,0.09);
             }
 
-        @media (max-width: 48rem) {
+        @media (max-width: 768px) {
             .submit-btn {
                 width: 100%;
                 float: none;
