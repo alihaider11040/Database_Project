@@ -13,7 +13,6 @@
   <div class="left">
     <h1>Sign up</h1>
     
-    <asp:textbox CssClass="test" type="text" name="username" placeholder="Username" runat="server" />
     <input type="text" name="email" placeholder="E-mail" />
     <input type="password" name="password" placeholder="Password" />
     <input type="password" name="password2" placeholder="Retype password" />
