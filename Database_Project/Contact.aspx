@@ -1,9 +1,10 @@
 ﻿<%@ Page Title="Contact" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="Database_Project.Contact" %>
 
-<asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server" style="text-align:center">
+
+<asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server" style="text-align: center">
+
+
     <style>
-        
-        
         body {
             background-color: #000000;
             background: url("/Images/hotel9.jpg") no-repeat;
@@ -56,9 +57,7 @@
         .styled-input label {
             color: #000000;
             padding: 1.3rem 1.875rem 1rem 1.875rem;
-            position: <div class="container"> <div class="row"> <h1>contact us</h1> </div> <div class="row"> <h4 style="text-align:=center">We'd love to hear from you! </h4> 
-                </div> <div class="row input-container"> <div class="col-xs-12"> <div class="styled-input wide"> <input type="text" required /> <label>Name</label> </div> </div> <div class="col-md-6 col-sm-12"> <div class="styled-input"> <input type="text" required /> <label>Email</label> </div> </div> <div class="col-md-6 col-sm-12"> <div class="styled-input" style="float:right;"> <input type="text" required /> <label>Phone Number</label> </div> </div> <div class="col-xs-12"> <div class="styled-input wide"> <textarea required></textarea> <label>Message</label> </div> </div> <div class="col-xs-12"> <div class="btn-lrg submit-btn" background-color: "black;">Send Message</div> </div> </div> </div> : absolute;
-            top: 0.625rem;
+            position: <div class="container"> <div class="row"> <h1>contact us</h1> </div> <div class="row"> <h4 style="text-align:=center">We'd love to hear from you! </h4> </div> <div class="row input-container"> <div class="col-xs-12"> <div class="styled-input wide"> <input type="text" required /> <label>Name</label> </div> </div> <div class="col-md-6 col-sm-12"> <div class="styled-input"> <input type="text" required /> <label>Email</label> </div> </div> <div class="col-md-6 col-sm-12"> <div class="styled-input" style="float:right;"> <input type="text" required /> <label>Phone Number</label> </div> </div> <div class="col-xs-12"> <div class="styled-input wide"> <textarea required></textarea> <label>Message</label> </div> </div> <div class="col-xs-12"> <div class="btn-lrg submit-btn" background-color: "black;">Send Message</div> </div> </div> </div> : absolute; top: 0.625rem;
             left: 0;
             -webkit-transition: all 0.25s ease;
             transition: all 0.25s ease;
@@ -130,6 +129,10 @@
                 text-align: center;
             }
         }
+        @viewport{
+            zoom: 1.0;
+            width: device-width;
+        }
 
         input[type=checkbox] + label {
             color: #ccc;
@@ -142,12 +145,17 @@
         }
     </style>
 
+<%--    <head>
+        <link rel="stylesheet" type="text/css" href="contact.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>--%>
+
     <div class="container">
-        <div class="row">
-            <h1>&emsp; &emsp; &emsp;  Want To Talk To Us?</h1>
+        <div class="row" style="text-align: center">
+            <h1>  Want To Talk To Us?</h1>
         </div>
-        <div class="row">
-            <h4 style="text-align: center" >&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  Fill Out This Form and Share Your Thoughts</h4>
+        <div class="row" style="text-align: center">
+            <h4> Fill Out This Form and Share Your Thoughts</h4>
         </div>
         <div class="row input-container">
             <div class="col-xs-12">
@@ -163,7 +171,7 @@
                 </div>
             </div>
             <div class="col-md-6 col-sm-12">
-                <div class="styled-input" style="float: right;">
+                <div class="styled-input" style="align-content:center;">
                     <input type="text" required />
                     <label><b>Phone Number</b></label>
                 </div>

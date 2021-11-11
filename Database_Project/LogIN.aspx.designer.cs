@@ -7,9 +7,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Database_Project {
-    
-    
-    public partial class SignUP {
+
+namespace Database_Project
+{
+    public partial class LogIN
+    {
     }
 }
