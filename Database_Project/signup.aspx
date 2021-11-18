@@ -2,6 +2,9 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 
+    
+   <link rel="stylesheet" type="text/css" href="signup.aspx"/>  
+
     <style>
         @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500);
 
@@ -174,8 +177,7 @@
             }
 
         button.logo {
-            background-image: url("hotel logo.jpg");
-            ;
+            background-image: url("/Images/hotel logo.png");
         }
 
 
@@ -193,6 +195,7 @@
         <div class="left">
             <h1>Sign up</h1>
 
+            <input type="text" name="username" placeholder="Username" />
             <input type="text" name="email" placeholder="E-mail" />
             <input type="password" name="password" placeholder="Password" />
             <input type="password" name="password2" placeholder="Retype password" />
@@ -202,7 +205,7 @@
 
         <div class="right">
             <!--<span class="loginwith">Sign in with<br />social network</span>-->
-            <img src="/Images/Hotel Logo 1.png" alt="Jaguars logo" width="150" height="130" style="vertical-align: middle; margin: 0px 35px">
+            <img src="/Images/hotel logo 1.png" alt="Jaguars logo" width="150" height="130" style="vertical-align: middle; margin: 0px 35px">
             <button class="social-signin facebook">Log in with facebook</button>
             <button class="social-signin twitter">Log in with Twitter</button>
             <button class="social-signin google">Log in with Google+</button>
