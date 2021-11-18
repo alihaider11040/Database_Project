@@ -2,16 +2,14 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 
-    <%-- <head>
-        <title><font color="black">Login Form </font></title>
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-    </head>--%>
+    <font color="black">Login Form </font>
+    <link rel="stylesheet" type="text/css" href="LogIN.aspx" />
 
     <style>
         body {
             margin: 0;
             padding: 0;
-            background-image: url("/Images/Hotel1.jpg");
+            background-image: url("/Images/hotel1.jpg");
             background-color: #6abadeba;
             font-family: 'Arial';
         }
@@ -73,6 +71,7 @@
             background-color: grey;
         }
     </style>
+
 
     <h2>Login Page</h2>
     <br>
