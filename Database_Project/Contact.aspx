@@ -2,6 +2,9 @@
 
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server" style="text-align: center">
+    
+        <link rel="stylesheet" type="text/css" href="Contact.aspx" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
     <style>
@@ -144,11 +147,6 @@
             font-style: normal;
         }
     </style>
-
-<%--    <head>
-        <link rel="stylesheet" type="text/css" href="contact.css" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>--%>
 
     <div class="container">
         <div class="row" style="text-align: center">
