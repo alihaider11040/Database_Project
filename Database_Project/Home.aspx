@@ -71,9 +71,9 @@
                                             <li><a class="active" href="index.html">home</a></li>
                                             <!--><li><a href="rooms.aspx">Bookings</a></li>-->
                                             <li><a href="About.aspx">About</a></li>
-                                            <li><a href="LogIN.aspx">Login 
+                                            <li><a href="LogIN.aspx">Login</a>
                                             </li>
-                                            <li><a href="signup.aspx">Sign Up 
+                                            <li><a href="signup.aspx">Sign Up</a>
                                             </li>
                                             <li><a href="Contact.aspx">Contact</a></li>
                                         </ul>
