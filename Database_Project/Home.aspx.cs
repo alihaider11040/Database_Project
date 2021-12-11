@@ -16,9 +16,9 @@ namespace Database_Project
 
         public void LoadGrid()
         {
-            myDAL objMyDal = new myDAL();
-            ItemGrid.DataSource = objMyDal.SelectItem();//seting data source for this Grid
-            ItemGrid.DataBind(); //bind the data source to this grid
+            //myDAL objMyDal = new myDAL();
+            //ItemGrid.DataSource = objMyDal.SelectItem();//seting data source for this Grid
+            //ItemGrid.DataBind(); //bind the data source to this grid
         }
     }
 }

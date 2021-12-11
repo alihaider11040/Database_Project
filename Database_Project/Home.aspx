@@ -69,13 +69,13 @@
                                     <nav>
                                         <ul id="navigation">
                                             <li><a class="active" href="index.html">home</a></li>
-                                            <li><a href="rooms.html">Bookings</a></li>
-                                            <li><a href="about.html">About</a></li>
-                                            <li><a href="login.html">Login 
+                                            <!--><li><a href="rooms.aspx">Bookings</a></li>-->
+                                            <li><a href="About.aspx">About</a></li>
+                                            <li><a href="LogIN.aspx">Login 
                                             </li>
-                                            <li><a href="signup.html">Sign Up 
+                                            <li><a href="signup.aspx">Sign Up 
                                             </li>
-                                            <li><a href="contact.html">Contact</a></li>
+                                            <li><a href="Contact.aspx">Contact</a></li>
                                         </ul>
                                     </nav>
                                 </div>
