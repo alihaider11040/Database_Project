@@ -119,9 +119,11 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Database\HotelManagement_SCRIPTS.sql" />
+    <Content Include="DayCareBooking.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="GymBooking.aspx" />
     <Content Include="Images\1.png" />
     <Content Include="Images\11.png" />
     <Content Include="Images\1about.png" />
@@ -150,6 +152,7 @@
     <Content Include="Images\hotel9.jpg" />
     <Content Include="LogIN.aspx" />
     <Content Include="mystyle.css" />
+    <Content Include="PoolBooking.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -303,6 +306,13 @@
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
     </Compile>
+    <Compile Include="DayCareBooking.aspx.cs">
+      <DependentUpon>DayCareBooking.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DayCareBooking.aspx.designer.cs">
+      <DependentUpon>DayCareBooking.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -312,6 +322,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="GymBooking.aspx.cs">
+      <DependentUpon>GymBooking.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GymBooking.aspx.designer.cs">
+      <DependentUpon>GymBooking.aspx</DependentUpon>
     </Compile>
     <Compile Include="Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>
@@ -326,6 +343,13 @@
     </Compile>
     <Compile Include="LogIN.aspx.designer.cs">
       <DependentUpon>LogIN.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PoolBooking.aspx.cs">
+      <DependentUpon>PoolBooking.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PoolBooking.aspx.designer.cs">
+      <DependentUpon>PoolBooking.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\DAL.cs" />
