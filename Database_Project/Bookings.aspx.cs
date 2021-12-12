@@ -7,18 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace Database_Project
 {
-    public partial class LogIN : System.Web.UI.Page
+    public partial class Bookings : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
         }
-        protected void loginClick(object sender, EventArgs e) {
-
-            string username = this.user.Text;
-        
-        }
-
-
     }
 }

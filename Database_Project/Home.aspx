@@ -109,7 +109,7 @@
                                         </ul>
                                     </div>
                                     <div class="book_btn d-none d-lg-block">
-                                        <a class="popup-with-form" href="#test-form">Book A Room</a>
+                                            <li><a class="popup-with-form" href="Bookings.aspx">Book A Room</a></li>
                                     </div>
                                 </div>
                             </div>

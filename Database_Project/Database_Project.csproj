@@ -109,6 +109,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="Bookings.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
@@ -134,6 +135,7 @@
     <Content Include="Images\5.png" />
     <Content Include="Images\about_1.png" />
     <Content Include="Images\about_2.png" />
+    <Content Include="Images\BookingsPage.jpg" />
     <Content Include="Images\hotel logo 1.png" />
     <Content Include="Images\hotel logo.png" />
     <Content Include="Images\hotel.jpg" />
@@ -286,6 +288,13 @@
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Bookings.aspx.cs">
+      <DependentUpon>Bookings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Bookings.aspx.designer.cs">
+      <DependentUpon>Bookings.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

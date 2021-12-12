@@ -1,6 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="LogIN.aspx.cs" Inherits="Database_Project.LogIN" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+    
 
     <font color="black">Login Form </font>
     <link rel="stylesheet" type="text/css" href="LogIN.aspx" />
@@ -81,7 +82,8 @@
                 <b>User Name     
                 </b>
             </label>
-            <input type="text" name="Uname" id="Uname" placeholder="Username">
+            <asp:TextBox ID="user" runat="server" CssClass ="login"></asp:TextBox>
+<%--            <input type="text" name="Uname" id="Uname" placeholder="Username">--%>
             <br>
             <br>
             <label>
@@ -91,7 +93,8 @@
             <input type="Password" name="Pass" id="Pass" placeholder="Password">
             <br>
             <br>
-            <input type="button" name="log" id="log" value="Log In">
+        <%--    <input type="button" name="log" id="log" value="Log In">--%>
+            <asp:Button ID="login" runat="server" Text="login" CssClass ="login" OnClick="loginClick"/>
             <br>
             <br>
             <input type="checkbox" id="check">
