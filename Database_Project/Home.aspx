@@ -12,25 +12,12 @@
         }
     </style>
 
-    
-    
-    <head>
-        <link rel="stylesheet" type="text/css" href="Home.aspx" />
-    </head>
 
-    <div class="header">
-        <img src="/Images/hotel logo 1.png" alt="Jaguars logo" width="150" height="130" style="vertical-align: middle; margin: 0px 35px">
-        <h2>The Jaguars Hotel</h2>
-        <p>This is header</p>
-    </div>
-
-    <body style="background-color: grey;"></body>
-    
-    <!doctype html>
     <html class="no-js" lang="zxx">
-    <title>The Jaguars Hotel</title>
 
     <head>
+
+        <link rel="stylesheet" type="text/css" href="Home.aspx" />
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <title>The Jaguars Hotel</title>
@@ -56,7 +43,7 @@
         <!-- <link rel="stylesheet" href="css/responsive.css"> -->
     </head>
 
-    <body>
+    <body style="background-color: grey;">
         <!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
