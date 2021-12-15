@@ -12,9 +12,6 @@
         }
     </style>
 
-
-    <html class="no-js" lang="zxx">
-
     <head>
 
         <link rel="stylesheet" type="text/css" href="Home.aspx" />
