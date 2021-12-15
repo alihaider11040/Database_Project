@@ -11,7 +11,9 @@
             font-size: 20px;
         }
     </style>
-    <%--
+
+    
+    
     <head>
         <link rel="stylesheet" type="text/css" href="Home.aspx" />
     </head>
@@ -22,7 +24,8 @@
         <p>This is header</p>
     </div>
 
-    <body style="background-color: grey;"></body>--%>
+    <body style="background-color: grey;"></body>
+    
     <!doctype html>
     <html class="no-js" lang="zxx">
     <title>The Jaguars Hotel</title>
@@ -39,17 +42,17 @@
         <!-- Place favicon.ico in the root directory -->
 
         <!-- CSS here -->
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/owl.carousel.min.css">
-        <link rel="stylesheet" href="css/magnific-popup.css">
-        <link rel="stylesheet" href="css/font-awesome.min.css">
-        <link rel="stylesheet" href="css/themify-icons.css">
-        <link rel="stylesheet" href="css/nice-select.css">
-        <link rel="stylesheet" href="css/flaticon.css">
-        <link rel="stylesheet" href="css/gijgo.css">
-        <link rel="stylesheet" href="css/animate.css">
-        <link rel="stylesheet" href="css/slicknav.css">
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+        <link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="css/themify-icons.css">
+        <link rel="stylesheet" type="text/css" href="css/nice-select.css">
+        <link rel="stylesheet" type="text/css" href="css/flaticon.css">
+        <link rel="stylesheet" type="text/css" href="css/gijgo.css">
+        <link rel="stylesheet" type="text/css" href="css/animate.css">
+        <link rel="stylesheet" type="text/css" href="css/slicknav.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
         <!-- <link rel="stylesheet" href="css/responsive.css"> -->
     </head>
 
@@ -69,7 +72,6 @@
                                     <nav>
                                         <ul id="navigation">
                                             <li><a class="active" href="index.html">home</a></li>
-                                            <!--><li><a href="rooms.aspx">Bookings</a></li>-->
                                             <li><a href="About.aspx">About</a></li>
                                             <li><a href="LogIN.aspx">Login</a>
                                             </li>
@@ -109,7 +111,7 @@
                                         </ul>
                                     </div>
                                     <div class="book_btn d-none d-lg-block">
-                                            <li><a class="popup-with-form" href="Bookings.aspx">Book A Room</a></li>
+                                        <li><a class="popup-with-form" href="Bookings.aspx">Book A Room</a></li>
                                     </div>
                                 </div>
                             </div>
