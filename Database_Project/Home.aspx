@@ -37,10 +37,13 @@
         <link rel="stylesheet" type="text/css" href="css/animate.css">
         <link rel="stylesheet" type="text/css" href="css/slicknav.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
-        <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+        <link rel="stylesheet" type="text/css" href="css/style.map">
+        <link rel="stylesheet" type="text/css" href="css/theme-default.css">
+        <link rel="stylesheet" type="text/css" href="css/theme-default.map">
+        <%--<link rel="stylesheet" href="css/responsive.css">--%>
     </head>
 
-    <body style="background-color: grey;">
+    <body>
         <!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
@@ -55,11 +58,16 @@
                                 <div class="main-menu  d-none d-lg-block">
                                     <nav>
                                         <ul id="navigation">
-                                            <li><a class="active" href="index.html">home</a></li>
+                                            <li><a class="active" href="Home.aspx">Home</a></li>
                                             <li><a href="About.aspx">About</a></li>
-                                            <li><a href="LogIN.aspx">Login</a>
-                                            </li>
-                                            <li><a href="signup.aspx">Sign Up</a>
+                                            <li><a href="LogIN.aspx">Login</a></li>
+                                            <li><a href="signup.aspx">Sign Up</a></li>
+                                            <li><a>Service Bookings <i class="ti-angle-down"></i></a>
+                                                <ul class="submenu">
+                                                    <li><a href="DayCareBooking.aspx">DayCare Booking</a></li>
+                                                    <li><a href="PoolBooking.aspx">Pool Booking</a></li>
+                                                    <li><a href="GymBookinh.aspx">Gym Booking</a></li>
+                                                </ul>
                                             </li>
                                             <li><a href="Contact.aspx">Contact</a></li>
                                         </ul>
@@ -109,7 +117,6 @@
         </header>
         <!-- header-end -->
 
-        <!-- slider_area_start -->
         <div class="slider_area">
             <div class="slider_active owl-carousel">
                 <div class="single_slider d-flex align-items-center justify-content-center slider_bg_1">
@@ -124,45 +131,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="single_slider  d-flex align-items-center justify-content-center slider_bg_2">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-xl-12">
-                                <div class="slider_text text-center">
-                                    <h3>Luxury is Convenience</h3>
-                                    <p>Book a service and enjoy the finest experience</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="single_slider d-flex align-items-center justify-content-center slider_bg_1">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-xl-12">
-                                <div class="slider_text text-center">
-                                    <h3>The Jaguars Hotel</h3>
-                                    <p>Book a service and enjoy the finest experience</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="single_slider  d-flex align-items-center justify-content-center slider_bg_2">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-xl-12">
-                                <div class="slider_text text-center">
-                                    <h3>Luxury is Convenience</h3>
-                                    <p>Book a service and enjoy the finest experience</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
-        <!-- slider_area_end -->
 
         <!-- about_area_start -->
         <div class="about_area">

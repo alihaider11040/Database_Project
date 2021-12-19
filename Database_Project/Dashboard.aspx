@@ -1,73 +1,6 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="LogIN.aspx.cs" Inherits="Database_Project.LogIN" %>
-
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Dashboard.aspx.cs" Inherits="Database_Project.Dashboard" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            background-image: url("/Images/hotel1.jpg");
-            background-color: #6abadeba;
-            font-family: 'Arial';
-        }
-
-        .login {
-            width: 382px;
-            overflow: hidden;
-            color: black;
-            margin: auto;
-            margin: 20 0 0 450px;
-            padding: 80px;
-            background: #000000;
-            border-radius: 15px;
-        }
-
-        h2 {
-            text-align: center;
-            color: #277582;
-            padding: 20px;
-        }
-
-        label {
-            color: #ffffff;
-            font-size: 17px;
-        }
-
-        #Uname {
-            width: 300px;
-            height: 30px;
-            border: none;
-            border-radius: 3px;
-            padding-left: 8px;
-        }
-
-        #Pass {
-            width: 300px;
-            height: 30px;
-            border: none;
-            border-radius: 3px;
-            padding-left: 8px;
-        }
-
-        #log {
-            width: 300px;
-            height: 30px;
-            border: none;
-            border-radius: 17px;
-            padding-left: 7px;
-            color: blue;
-        }
-
-        span {
-            color: white;
-            font-size: 17px;
-        }
-
-        a {
-            float: right;
-            background-color: grey;
-        }
-    </style>
     
         <!-- header-start -->
         <header>
@@ -79,9 +12,9 @@
                                 <div class="main-menu  d-none d-lg-block">
                                     <nav>
                                         <ul id="navigation">
-                                            <li><a href="Home.aspx">Home</a></li>
+                                            <li><a class="active" href="Home.aspx">Home</a></li>
                                             <li><a href="About.aspx">About</a></li>
-                                            <li><a class="active" href="LogIN.aspx">Login</a></li>
+                                            <li><a href="LogIN.aspx">Login</a></li>
                                             <li><a href="signup.aspx">Sign Up</a></li>
                                             <li><a>Service Bookings <i class="ti-angle-down"></i></a>
                                                 <ul class="submenu">
@@ -137,34 +70,5 @@
             </div>
         </header>
         <!-- header-end -->
-
-    <div class="login">
-        <form id="login" method="get" action="login.php">
-            <label>
-                <b>User Name     
-                </b>
-            </label>
-            <asp:TextBox ID="user" runat="server" CssClass ="login"></asp:TextBox>
-<%--            <input type="text" name="Uname" id="Uname" placeholder="Username">--%>
-            <br>
-            <br>
-            <label>
-                <b>Password     
-                </b>
-            </label>
-            <input type="Password" name="Pass" id="Pass" placeholder="Password">
-            <br>
-            <br>
-        <%--    <input type="button" name="log" id="log" value="Log In">--%>
-            <asp:Button ID="login" runat="server" Text="login" CssClass ="login" OnClick="loginClick"/>
-            <br>
-            <br>
-            <input type="checkbox" id="check">
-            <span>Remember me</span>
-            <br>
-            <br>
-            Forgot <a href="#">Forgot Password</a>
-        </form>
-    </div>
 
 </asp:Content>
