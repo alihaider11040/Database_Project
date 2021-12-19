@@ -86,7 +86,7 @@
                                 <div class="main-menu  d-none d-lg-block">
                                     <nav>
                                         <ul id="navigation">
-                                            <li><a href="Home.html">Home</a></li>
+                                            <li><a href="Home.aspx">Home</a></li>
                                             <li><a class="active" href="About.aspx">About</a></li>
                                             <li><a href="LogIN.aspx">Login</a></li>
                                             <li><a href="signup.aspx">Sign Up</a></li>

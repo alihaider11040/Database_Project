@@ -13,7 +13,6 @@
     </style>
 
     <head>
-
         <link rel="stylesheet" type="text/css" href="Home.aspx" />
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -43,7 +42,7 @@
         <%--<link rel="stylesheet" href="css/responsive.css">--%>
     </head>
 
-    <body>
+    <body style="background-color: darkred;">
         <!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
@@ -125,6 +124,19 @@
                             <div class="col-xl-12">
                                 <div class="slider_text text-center">
                                     <h3>The Jaguars Hotel</h3>
+                                    <p>Book a service and enjoy the finest experience</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="single_slider  d-flex align-items-center justify-content-center slider_bg_2">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-12">
+                                <div class="slider_text text-center">
+                                    <h3>Luxury is Convenience</h3>
                                     <p>Book a service and enjoy the finest experience</p>
                                 </div>
                             </div>

@@ -150,6 +150,8 @@
     <Content Include="Images\5.png" />
     <Content Include="Images\about_1.png" />
     <Content Include="Images\about_2.png" />
+    <Content Include="Images\Banner1.png" />
+    <Content Include="Images\Banner2.png" />
     <Content Include="Images\BookingsPage.jpg" />
     <Content Include="Images\hotel logo 1.png" />
     <Content Include="Images\hotel logo.png" />

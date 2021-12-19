@@ -40,7 +40,7 @@
         <link rel="stylesheet" type="text/css" href="css/style.css">
 
 </head>
-<body style="background-color: grey;">
+<body style="background-color: darkred;">
     <form runat="server">
         <asp:ScriptManager runat="server">
             <Scripts>
