@@ -84,22 +84,21 @@
                         </div>
                         <form>
                             <div class="form-group">
-                                <input class="form-control" type="text" placeholder="Country, ZIP, city...">
+                                <asp:TextBox runat="server" ID="GetCountry" class="form-control" type="text" placeholder="Country, ZIP, city..."/>
                                 <span class="form-label">Destination</span>
                             </div>
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <input class="form-control" type="date" required>
+                                        <asp:TextBox runat="server" ID="GetCheckInDate" class="form-control" type="date" required/>
                                         <span class="form-label">Check In</span>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <input class="form-control" type="date" required>
+                                        <asp:TextBox runat="server" ID="GetCheckoutDate" class="form-control" type="date" required/>
                                         <span class="form-label">Check out</span>
-                                    </div>
-                                </div>
+                                    </div>                                </div>
                             </div>
                             <div class="row">
                                 <div class="col-md-4">
@@ -139,13 +138,13 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <input class="form-control" type="email" placeholder="Enter your Email">
+                                        <asp:TextBox runat="server" ID="GetEmail" class="form-control" type="email" placeholder="Enter your Email"/>
                                         <span class="form-label">Email</span>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <input class="form-control" type="tel" placeholder="Enter your Phone">
+                                        <asp:TextBox runat="server" ID="GetPhone" class="form-control" type="tel" placeholder="Enter your Phone"/>
                                         <span class="form-label">Phone</span>
                                     </div>
                                 </div>
