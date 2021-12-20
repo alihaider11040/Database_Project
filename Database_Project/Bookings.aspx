@@ -84,19 +84,19 @@
                         </div>
                         <form>
                             <div class="form-group">
-                                <asp:TextBox runat="server" ID="GetCountry" class="form-control" type="text" placeholder="Country, ZIP, city..."/>
+                                <asp:TextBox runat="server" ID="GetRoomID" class="form-control" type="text" placeholder="Room ID"/>
                                 <span class="form-label">Destination</span>
                             </div>
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <asp:TextBox runat="server" ID="GetCheckInDate" class="form-control" type="date" required/>
+                                        <asp:TextBox runat="server" ID="GetCheckInDate" class="form-control" type="date" />
                                         <span class="form-label">Check In</span>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <asp:TextBox runat="server" ID="GetCheckoutDate" class="form-control" type="date" required/>
+                                        <asp:TextBox runat="server" ID="GetCheckoutDate" class="form-control" type="date" />
                                         <span class="form-label">Check out</span>
                                     </div>                                </div>
                             </div>

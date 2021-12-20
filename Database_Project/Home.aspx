@@ -42,7 +42,7 @@
         <%--<link rel="stylesheet" href="css/responsive.css">--%>
     </head>
 
-    <body style="background-color: aquamarine;">
+    <body style="background-color: #585858;">
         <!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
@@ -160,7 +160,7 @@
                                     Alongside Nature</h3>
                             </div>
                             <p style=" color:white">We not only provide you with the best single, double, and all other sorts of rooms, but instead make your ease and convenience a priority. Because we believe that the customer is a blessing. </p>
-                            <a href="#" class="line-button">Learn More</a>
+                            <a href="#" class="line-button" style=" color:white">Learn More</a>
                         </div>
                     </div>
                     <div class="col-xl-7 col-lg-7">
@@ -184,8 +184,8 @@
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="section_title text-center mb-100">
-                            <span>What do we offer</span>
-                            <h3>Current Offers</h3>
+                            <span style=" color:white">What do we offer</span>
+                            <h3 style=" color:white">Current Offers</h3>
                         </div>
                     </div>
                 </div>
@@ -195,12 +195,11 @@
                             <div class="about_thumb">
                                 <img src="/Images/111.png" alt="">
                             </div>
-                            <h3>Get Flat 25% Discount on Premium<br>
-                                Rooms and other services</h3>
+                            <h3 style=" color:white">Get Flat 25% Discount on Premium Rooms and other services</h3>
                             <ul>
-                                <li>Luxuries condition</li>
-                                <li>3 Adults & 2 Children size</li>
-                                <li>Sea view side</li>
+                                <li style=" color:white">Luxuries condition</li>
+                                <li style=" color:white">3 Adults & 2 Children size</li>
+                                <li style=" color:white">Sea view side</li>
                             </ul>
                             <a href="#" class="book_now">book now</a>
                         </div>
@@ -210,11 +209,11 @@
                             <div class="about_thumb">
                                 <img src="/Images/222.png" alt="">
                             </div>
-                            <h3>Get flat 15% savings on Premium Rooms and other Services</h3>
+                            <h3 style=" color:white">Get flat 15% savings on Premium Rooms and other Services</h3>
                             <ul>
-                                <li>Luxuries condition</li>
-                                <li>2 Adults & 3 Children size</li>
-                                <li>Sea view side</li>
+                                <li style=" color:white">Luxuries condition</li>
+                                <li style=" color:white">2 Adults & 3 Children size</li>
+                                <li style=" color:white">Sea view side</li>
                             </ul>
                             <a href="#" class="book_now">book now</a>
                         </div>
@@ -224,13 +223,13 @@
                             <div class="about_thumb">
                                 <img src="/Images/333.png" alt="">
                             </div>
-                            <h3>Up to 35% savings on Club
+                            <h3 style=" color:white">Up to 35% savings on Club
                                 <br>
                                 rooms and Suites</h3>
                             <ul>
-                                <li>Luxaries condition</li>
-                                <li>3 Adults & 2 Children size</li>
-                                <li>Sea view side</li>
+                                <li style=" color:white">Luxaries condition</li>
+                                <li style=" color:white">3 Adults & 2 Children size</li>
+                                <li style=" color:white">Sea view side</li>
                             </ul>
                             <a href="#" class="book_now">book now</a>
                         </div>
@@ -243,8 +242,8 @@
         <!-- video_area_start -->
         <div class="video_area video_bg overlay">
             <div class="video_area_inner text-center">
-                <span>Jaguars Sea View</span>
-                <h3>Relax and Enjoy your
+                <span style=" color:white">Jaguars Sea View</span>
+                <h3 style=" color:white">Relax and Enjoy your
                     <br>
                     Vacation </h3>
                 <a href="https://www.youtube.com/watch?v=ekWtMLUQo3k" class="video_btn popup-video">
@@ -271,13 +270,13 @@
                     <div class="col-xl-5 col-lg-5">
                         <div class="about_info">
                             <div class="section_title mb-20px">
-                                <span>Delicious Food</span>
-                                <h3>We Serve only Fresh and
+                                <span style=" color:white">Delicious Food</span>
+                                <h3 style=" color:white">We Serve only Fresh and
                                     <br>
                                     Deliciously cooked Food</h3>
                             </div>
-                            <p>With a mixed flavour of Continental, Eastern and Western Cousines, we make sure that yor taste buds have as much a good time as you.</p>
-                            <a href="#" class="line-button">Learn More</a>
+                            <p style=" color:white">With a mixed flavour of Continental, Eastern and Western Cousines, we make sure that yor taste buds have as much a good time as you.</p>
+                            <a href="#" class="line-button" style=" color:white">Learn More</a>
                         </div>
                     </div>
                 </div>
@@ -285,7 +284,7 @@
         </div>
         <!-- about_area_end -->
 
-        <!-- features_room_startt -->
+        <%--<!-- features_room_startt -->
         <div class="features_room">
             <div class="container">
                 <div class="row">
@@ -348,7 +347,7 @@
                 </div>
             </div>
         </div>
-        <!-- features_room_end -->
+        <!-- features_room_end -->--%>
 
         <!-- forQuery_start -->
         <div class="forQuery">
@@ -359,7 +358,7 @@
                             <div class="row align-items-center justify-content-center">
                                 <div class="col-xl-6 col-md-6">
                                     <div class="Query_text">
-                                        <p>Want to Reserve 0r Get Answers?</p>
+                                        <p style="color:white">Want to Reserve 0r Get Answers?</p>
                                     </div>
                                 </div>
                                 <div class="col-xl-6 col-md-6">
@@ -437,6 +436,7 @@
                                 <a href="#" class="line-button">Get Directions</a>
                             </div>
                         </div>
+
                         <div class="col-xl-3 col-md-6 col-lg-3">
                             <div class="footer_widget">
                                 <h3 class="footer_title">Reservations
@@ -465,8 +465,8 @@
                                 <h3 class="footer_title">Newsletter
                                 </h3>
                                 <form action="#" class="newsletter_form">
-                                    <input type="text" placeholder="Enter your mail">
-                                    <button type="submit">Sign Up</button>
+                                    <asp:TextBox runat="server" ID="GetEmail" type="text" placeholder="Enter your mail"/>
+                                    <asp:Button runat="server" ID="SignUp" Text="Sign Up" type="submit"/>
                                 </form>
                                 <p class="newsletter_text">Subscribe newsletter to get updates</p>
                             </div>
@@ -517,10 +517,10 @@
                     <form action="#">
                         <div class="row">
                             <div class="col-xl-6">
-                                <input id="datepicker" placeholder="Check in date">
+                                <asp:TextBox runat="server" id="datepicker" placeholder="Check in date"/>
                             </div>
                             <div class="col-xl-6">
-                                <input id="datepicker2" placeholder="Check out date">
+                                <asp:TextBox runat="server" id="datepicker2" placeholder="Check out date"/>
                             </div>
                             <div class="col-xl-6">
                                 <select class="form-select wide" id="default-select" class="">

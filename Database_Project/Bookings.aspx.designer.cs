@@ -15,13 +15,13 @@ namespace Database_Project
     {
 
         /// <summary>
-        /// GetCountry control.
+        /// GetRoomID control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox GetCountry;
+        protected global::System.Web.UI.WebControls.TextBox GetRoomID;
 
         /// <summary>
         /// GetCheckInDate control.

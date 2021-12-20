@@ -177,6 +177,9 @@
     <Content Include="Images\hotel7.jpeg" />
     <Content Include="Images\hotel8.jpg" />
     <Content Include="Images\hotel9.jpg" />
+    <Content Include="Images\team1.jpeg" />
+    <Content Include="Images\team2.jpeg" />
+    <Content Include="Images\team3.jpeg" />
     <Content Include="img\about\1about.png" />
     <Content Include="img\about\2about.png" />
     <Content Include="img\about\about_1.png" />
