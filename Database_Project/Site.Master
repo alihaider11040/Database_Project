@@ -40,7 +40,7 @@
         <link rel="stylesheet" type="text/css" href="css/style.css">
 
 </head>
-<body style="background-color: darkred;">
+<body >
     <form runat="server">
         <asp:ScriptManager runat="server">
             <Scripts>
@@ -73,8 +73,7 @@
                 </a>
 
                 <span>
-                    <p style="text-align: left;" href="#home">
-                        &copy; <%: DateTime.Now.Year %>  ||  Powered by <a href="#home" title="The Jaguars">THE JAGUARS</a>
+                    <p style="text-align: left;" href="Home.aspx"> &copy; <%: DateTime.Now.Year %>  ||  Powered by <a href="#home" title="The Jaguars">THE JAGUARS</a>
 
                     </p>
 

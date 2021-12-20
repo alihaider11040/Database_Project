@@ -151,11 +151,11 @@ h3 {
 }
 
 .bg-img-1 {
-    background-image: url(../img/slider/slider-img-1.jpg)
+    background-image: url(../Images/Banner1.png)
 }
 
 .bg-img-2 {
-    background-image: url(../img/background-img/bg-img-2.jpg)
+    background-image: url(..Images/Banner2.png)
 }
 
 .cta-bg-1 {
@@ -874,11 +874,11 @@ h3 {
 }
 
 .slider_bg_1 {
-    background-image: url(../Images/Banner1.jpeg)
+    background-image: url('../Images/Banner1.png');
 }
 
 .slider_bg_2 {
-    background-image: url(../Images/Banner2.jpeg)
+    background-image: url('../Images/Banner2.png');
 }
 
 .slider_area .single_slider {

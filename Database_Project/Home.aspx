@@ -42,7 +42,7 @@
         <%--<link rel="stylesheet" href="css/responsive.css">--%>
     </head>
 
-    <body style="background-color: darkred;">
+    <body style="background-color: aquamarine;">
         <!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
@@ -75,7 +75,7 @@
                             </div>
                             <div class="col-xl-2 col-lg-2">
                                 <div class="logo-img">
-                                    <a href="index.html">
+                                    <a href="Home.aspx">
                                         <img src="/Images/hotel logo 1.png" alt="" style="width: 150px; height: 120px;">
                                     </a>
                                 </div>
@@ -116,36 +116,36 @@
         </header>
         <!-- header-end -->
 
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="d-block w-100" src="../Images/Banner1.png" alt="First slide">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h3>The Jaguars Hotel</h3>
-                        <p>Book a service and enjoy the finest experience</p>
+        <!-- slider_area_start -->
+        <div class="slider_area">
+            <div class="slider_active owl-carousel">
+                <div class="single_slider d-flex align-items-center justify-content-center slider_bg_1">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-12">
+                                <div class="slider_text text-center">
+                                    <h3>The Jaguars Hotel</h3>
+                                    <p>Book a service and enjoy the finest experience</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="../Images/Banner2.png" alt="Second slide">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h3>Luxury is Convenience</h3>
-                        <p>Book a service and enjoy the finest experience</p>
+                <div class="single_slider  d-flex align-items-center justify-content-center slider_bg_2">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-12">
+                                <div class="slider_text text-center">
+                                    <h3>Luxury is Convenience</h3>
+                                    <p>Book a service and enjoy the finest experience</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
         </div>
+
 
         <!-- about_area_start -->
         <div class="about_area">
@@ -155,11 +155,11 @@
                         <div class="about_info">
                             <div class="section_title mb-20px">
                                 <span>About Us</span>
-                                <h3>A memorable Experience
+                                <h3 style=" color:white">A memorable Experience
                                     <br>
                                     Alongside Nature</h3>
                             </div>
-                            <p>We not only provide you with the best single, double, and all other sorts of rooms, but instead make your ease and convenience a priority. Because we believe that the customer is a blessing. </p>
+                            <p style=" color:white">We not only provide you with the best single, double, and all other sorts of rooms, but instead make your ease and convenience a priority. Because we believe that the customer is a blessing. </p>
                             <a href="#" class="line-button">Learn More</a>
                         </div>
                     </div>
@@ -210,9 +210,7 @@
                             <div class="about_thumb">
                                 <img src="/Images/222.png" alt="">
                             </div>
-                            <h3>Get flat 15% savings on Premium
-                                <br>
-                                Rooms and other Services</h3>
+                            <h3>Get flat 15% savings on Premium Rooms and other Services</h3>
                             <ul>
                                 <li>Luxuries condition</li>
                                 <li>2 Adults & 3 Children size</li>
@@ -249,7 +247,7 @@
                 <h3>Relax and Enjoy your
                     <br>
                     Vacation </h3>
-                <a href="https://www.youtube.com/watch?v=vLnPwxZdW4Y" class="video_btn popup-video">
+                <a href="https://www.youtube.com/watch?v=ekWtMLUQo3k" class="video_btn popup-video">
                     <i class="fa fa-play"></i>
                 </a>
             </div>
@@ -602,9 +600,6 @@
 
             });
         </script>
-
-
-
     </body>
 
     </html>
