@@ -228,26 +228,26 @@
         <div class="row input-container">
             <div class="col-xs-12">
                 <div class="styled-input wide">
-                    <input type="text" required />
-                    <label><b>Name</b></label>
+                    <asp:TextBox runat="server" ID="GetThoughts" type="text" required />
+                    <asp:label runat="server" ID="GetName"><b>Name</b></asp:label>
                 </div>
             </div>
             <div class="col-md-6 col-sm-12">
                 <div class="styled-input">
-                    <input type="text" required />
-                    <label><b>Email</b></label>
+                    <asp:TextBox runat="server" ID="TextBox1" type="text" required />
+                    <asp:label runat="server" ID="GetEmail"><b>Email</b></asp:label>
                 </div>
             </div>
             <div class="col-md-6 col-sm-12">
                 <div class="styled-input" style="align-content:center;">
-                    <input type="text" required />
-                    <label><b>Phone Number</b></label>
+                    <asp:TextBox runat="server" ID="TextBox2" type="text" required />
+                    <asp:label runat="server" ID="GetPhoneNumber"><b>Phone Number</b></asp:label>
                 </div>
             </div>
             <div class="col-xs-12">
                 <div class="styled-input wide">
-                    <textarea required></textarea>
-                    <label><b>Your Message</b></label>
+                    <asp:TextBox runat="server" ID="TextBox3" type="text" required />
+                    <asp:label runat="server" ID="GetMessage"><b>Your Message</b></asp:label>
                 </div>
             </div>
             <div class="col-xs-12">

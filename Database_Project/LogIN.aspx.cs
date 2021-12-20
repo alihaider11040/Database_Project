@@ -23,7 +23,7 @@ namespace Database_Project
 
             SqlCommand cmd = con.CreateCommand();
             cmd.CommandType = CommandType.Text;
-            cmd.CommandText = "insert into LOGINS values('"+user.Text"','"+Pass.Text"','"+Type.Text"')";
+           // cmd.CommandText = "insert into LOGINS values('"+user.Text"','"+Pass.Text"','"+Type.Text"')";
             cmd.ExecuteNonQuery();
 
         

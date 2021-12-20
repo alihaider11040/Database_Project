@@ -271,7 +271,7 @@
            
    <!--         <input type="submit" name="signup_submit" value="Sign me up" />
        -->
-            <asp:button type="submit" class="signupbtn" style="background-color:rebeccapurple">Sign Up</asp:button>
+            <asp:button type="submit" class="signupbtn" style="background-color:rebeccapurple">SIGN ME UP</asp:button>
    
         </div>
 

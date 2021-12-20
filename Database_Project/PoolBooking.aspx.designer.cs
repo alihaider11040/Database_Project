@@ -7,12 +7,76 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-
 namespace Database_Project
 {
-    public partial class PoolBooking
 
+
+    public partial class PoolBooking
     {
+
+        /// <summary>
+        /// GetRoomNoPOOL control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox GetRoomNoPOOL;
+
+        /// <summary>
+        /// GetPoolCheckInDate control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox GetPoolCheckInDate;
+
+        /// <summary>
+        /// GetPoolCheckInTime control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox GetPoolCheckInTime;
+
+        /// <summary>
+        /// GetPoolCheckOutDate control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox GetPoolCheckOutDate;
+
+        /// <summary>
+        /// GetPoolCheckOutTime control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox GetPoolCheckOutTime;
+
+        /// <summary>
+        /// GetEmail control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox GetEmail;
+
+        /// <summary>
+        /// GetPhoneNumber control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox GetPhoneNumber;
+
         /// <summary>
         /// Book_Now control.
         /// </summary>
@@ -20,6 +84,6 @@ namespace Database_Project
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Booking;
+        protected global::System.Web.UI.WebControls.Button Book_Now;
     }
 }
