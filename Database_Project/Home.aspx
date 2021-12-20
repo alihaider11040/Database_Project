@@ -61,7 +61,7 @@
                                             <li><a href="About.aspx">About</a></li>
                                             <li><a href="LogIN.aspx">Login</a></li>
                                             <li><a href="signup.aspx">Sign Up</a></li>
-                                            <li><a>Service Bookings <i class="ti-angle-down"></i></a>
+                                            <li><a>Service Bookings</a>
                                                 <ul class="submenu">
                                                     <li><a href="DayCareBooking.aspx">DayCare Booking</a></li>
                                                     <li><a href="PoolBooking.aspx">Pool Booking</a></li>
@@ -125,9 +125,9 @@
                 <div class="carousel-item active">
                     <img class="d-block w-100" src="../Images/Banner1.png" alt="First slide">
                     <div class="carousel-caption d-none d-md-block">
-                    <h3>The Jaguars Hotel</h3>
-                    <p>Book a service and enjoy the finest experience</p>
-                        </div>
+                        <h3>The Jaguars Hotel</h3>
+                        <p>Book a service and enjoy the finest experience</p>
+                    </div>
                 </div>
                 <div class="carousel-item">
                     <img class="d-block w-100" src="../Images/Banner2.png" alt="Second slide">

@@ -17,7 +17,7 @@
                                             <li><a href="About.aspx">About</a></li>
                                             <li><a href="LogIN.aspx">Login</a></li>
                                             <li><a href="signup.aspx">Sign Up</a></li>
-                                            <li><a class="active">Service Bookings <i class="ti-angle-down"></i></a>
+                                            <li><a class="active">Service Bookings </i></a>
                                                 <ul class="submenu">
                                                     <li><a href="DayCareBooking.aspx">DayCare Booking</a></li>
                                                     <li><a href="PoolBooking.aspx">Pool Booking</a></li>
