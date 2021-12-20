@@ -264,14 +264,14 @@
         <div class="left">
             <h1>Sign up</h1>
 
-            <input type="text" name="username" placeholder="Username" />
-            <input type="text" name="email" placeholder="E-mail" />
-            <input type="password" name="password" placeholder="Password" />
-            <input type="password" name="password2" placeholder="Retype password" />
+            <asp:TextBox runat="server" id="Username" type="text" name="username" placeholder="Username" />
+            <asp:TextBox runat="server" id="Email" type="text" name="email" placeholder="E-mail" />
+            <asp:TextBox runat="server" id="password" name="password" placeholder="Password" />
+          <!--  <input type="password" name="password2" placeholder="Retype password" />
            
    <!--         <input type="submit" name="signup_submit" value="Sign me up" />
        -->
-            <button type="submit" class="signupbtn" style="background-color:rebeccapurple">Sign Up</button>
+            <asp:button type="submit" class="signupbtn" style="background-color:rebeccapurple">Sign Up</asp:button>
    
         </div>
 

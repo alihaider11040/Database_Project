@@ -12,7 +12,6 @@
         }
 
         .login {
-            width: 382px;
             overflow: hidden;
             color: black;
             margin: auto;
@@ -152,11 +151,11 @@
                 <b>Password     
                 </b>
             </label>
-            <input type="Password" name="Pass" id="Pass" placeholder="Password">
+            <asp:TextBox runat="server" name="Pass" id="Pass" placeholder="Password"></asp:TextBox>
             <br>
             <br>
         <%--    <input type="button" name="log" id="log" value="Log In">--%>
-            <asp:Button ID="login" runat="server" Text="login" CssClass ="login" OnClick="loginClick"/>
+            <asp:Button ID="login" runat="server" Text="login" CssClass ="login" OnClick="loginClick" Width="472px"/>
             <br>
             <br>
             <input type="checkbox" id="check">
