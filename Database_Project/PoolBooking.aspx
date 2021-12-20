@@ -150,7 +150,7 @@
                                 </div>
                             </div>
                             <div class="text-center">
-                                <asp:Button class="submit-btn" ID="Booking" runat="server" Text="Book Now" />
+                                <asp:Button class="submit-btn" ID="Book_Now" runat="server" Text="Book Now"  OnClick="BOOK_ON_CLICK"/>
                             </div>
                     </div>
                 </div>

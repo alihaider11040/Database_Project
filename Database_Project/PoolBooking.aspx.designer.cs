@@ -7,15 +7,14 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+
 namespace Database_Project
 {
-
-
     public partial class PoolBooking
-    {
 
+    {
         /// <summary>
-        /// Booking control.
+        /// Book_Now control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
