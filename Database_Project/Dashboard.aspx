@@ -16,7 +16,7 @@
                                             <li><a href="About.aspx">About</a></li>
                                             <li><a href="LogIN.aspx">Login</a></li>
                                             <li><a href="signup.aspx">Sign Up</a></li>
-                                            <li><a>Service Bookings </i></a>
+                                            <li><a>Service Bookings</a>
                                                 <ul class="submenu">
                                                     <li><a href="DayCareBooking.aspx">DayCare Booking</a></li>
                                                     <li><a href="PoolBooking.aspx">Pool Booking</a></li>
@@ -30,7 +30,7 @@
                             </div>
                             <div class="col-xl-2 col-lg-2">
                                 <div class="logo-img">
-                                    <a href="index.html">
+                                    <a href="Home.aspx">
                                         <img src="/Images/hotel logo 1.png" alt="" style="width: 150px; height: 120px;">
                                     </a>
                                 </div>
