@@ -21,7 +21,7 @@
                                                 <ul class="submenu">
                                                     <li><a href="DayCareBooking.aspx">DayCare Booking</a></li>
                                                     <li><a href="PoolBooking.aspx">Pool Booking</a></li>
-                                                    <li><a class="active" href="GymBookinh.aspx">Gym Booking</a></li>
+                                                    <li><a class="active" href="GymBooking.aspx">Gym Booking</a></li>
                                                 </ul>
                                             </li>
                                             <li><a href="Contact.aspx">Contact</a></li>

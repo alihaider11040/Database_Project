@@ -65,7 +65,7 @@
                                                 <ul class="submenu">
                                                     <li><a href="DayCareBooking.aspx">DayCare Booking</a></li>
                                                     <li><a href="PoolBooking.aspx">Pool Booking</a></li>
-                                                    <li><a href="GymBookinh.aspx">Gym Booking</a></li>
+                                                    <li><a href="GymBooking.aspx">Gym Booking</a></li>
                                                 </ul>
                                             </li>
                                             <li><a href="Contact.aspx">Contact</a></li>
@@ -116,34 +116,28 @@
         </header>
         <!-- header-end -->
 
-        <div class="slider_area">
-            <div class="slider_active owl-carousel">
-                <div class="single_slider d-flex align-items-center justify-content-center slider_bg_1">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-xl-12">
-                                <div class="slider_text text-center">
-                                    <h3>The Jaguars Hotel</h3>
-                                    <p>Book a service and enjoy the finest experience</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="../Images/Banner1.png" alt="First slide">
                 </div>
-
-                <div class="single_slider  d-flex align-items-center justify-content-center slider_bg_2">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-xl-12">
-                                <div class="slider_text text-center">
-                                    <h3>Luxury is Convenience</h3>
-                                    <p>Book a service and enjoy the finest experience</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="../Images/Banner2.png" alt="Second slide">
                 </div>
             </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
 
         <!-- about_area_start -->
